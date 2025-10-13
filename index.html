@@ -14,8 +14,14 @@
     <main>
         <label for="">
             converter <b>de</b>
-            <select name="" id="">
-                <option value="">R$ Real Brasileiro</option>
+            <select class="currency-origin">
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="dolar">US$ Dólar Americano</option>
+                <option value="euro">€ Euro</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+                <option value="peso-argentino">₽ Peso Argentino</option>
+                <option value="peso-chileno">₽ Peso Chileno</option>
+
             </select>
         </label>
 
@@ -24,6 +30,10 @@
             <select class="currency-select">
                 <option value="dolar">US$ Dólar Americano</option>
                 <option value="euro">€ Euro</option>
+                <option value="real">R$ Real Brasileiro</option>
+                <option value="bitcoin">₿ Bitcoin</option>
+                <option value="peso-argentino">₽ Peso Argentino</option>
+                <option value="peso-chileno">₽ Peso Chileno</option>
             </select>
         </label>
 
@@ -36,8 +46,8 @@
 
         <section>
             <div class="currency-box">
-                <img class="currency-country" src="./assets/real.png" alt="moeda-a-converter">
-                <p class="currency">Real</p>
+                <img class="currency-country" id="band2" src="./assets/real.png" alt="moeda-a-converter">
+                <p class="currency" id="currency-play">Real</p>
                 <p class="currency-value-to-convert">R$ 0,00</p>
             </div>
 
